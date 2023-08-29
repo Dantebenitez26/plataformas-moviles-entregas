@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Funciones en JavaScript</title>
+</head>
+<body>
+
+<script>
+  // Ejemplo 1: Declaración de función nombrada
+  function suma(a, b) {
+    return a + b;
+  }
+
+  // Ejemplo 2: Declaración de función anónima asignada a una variable
+  var resta = function(x, y) {
+    return x - y;
+  };
+
+  // Ejemplo 3: Declaración de función de flecha (arrow function)
+  const multiplicacion = (p, q) => p * q;
+
+  // Llamadas a las funciones y muestra de resultados en consola
+  console.log(suma(5, 3));          // Debería mostrar 8
+  console.log(resta(10, 4));       // Debería mostrar 6
+  console.log(multiplicacion(2, 6)); // Debería mostrar 12
+</script>
+
+</body>
+</html>
